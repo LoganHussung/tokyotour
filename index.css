@@ -7,10 +7,38 @@ html,body {
   box-sizing: border-box;
   font-size: 16px;
   font-family: Herculanum;
-  border: 1px solid red;
+  border: 1px solid blue;
+}
+.history h4{
+  text-align: center;
+  font-size: 4em;
+}
+.history p{
+  text-align: center;;
+  font-size: 1.5em;
+  width: 85%;
+  padding: 0;
+  margin: 0;
+  float: left;
+  height: 20vh;
+
+}
+.history h5{
+  text-align: center;;
+  font-size: 2em;
+  width: 7%;
+  padding: 50px 0;
+  margin: 0;
+  float: left;
+  height: 20vh;
 }
 
+}
 .content{
+  margin: 0;
+  padding: 0;
+}
+.interest {
   margin: 0;
   padding: 0;
 }
@@ -55,5 +83,20 @@ margin: 0;
 
 .sites{
   width: 100%;
-
+}
+.Yourguide {
+  margin-top: 20px;
+  background-color: #A6CAFE;
+  color: white;
+}
+.Guide {
+  margin-top: 20px;
+  background-color: #A6CAFE;
+  color: white;
+}
+.Guide h4,p {
+  text-align: center;
+}
+.Guide h4 {
+font-size: 38px;
 }
