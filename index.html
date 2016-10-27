@@ -10,10 +10,25 @@
 </head>
 <body>
   <div class="Header">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6 bg-inverse mytravel">myTravel</div>
-        <div class="col-sm-6 bg-inverse dropdown">Drowpdown Menu</div>
+    <div class="container">
+      <div class="row-fluid">
+        <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+          <a class="navbar-brand" href="#"><sub>my</sub>T</a>
+          <ul class="nav navbar-nav">
+          <li class="nav-item">
+          <a class="nav-link" href="#">Plan your tip</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+          </li>
+          </ul>
+          <form class="form-inline pull-sm-right" role="search">
+          <input type="text" class="form-control" placeholder="Search">
+          </form>
+        </nav>
       </div>
     </div>
   </div>
@@ -23,10 +38,7 @@
   </div>
     <img src="Images/giphy.gif" class="mount img-fluid" alt="Fuji">
     <div class="col-md-12 history row-fluid">
-      <h4>History</h4>
-      <h5> < </h5>
-      <p> Japan is one of the most diverse countries when it comes to food.</p>
-      <h5> > </h5>
+      <p>If not now, when?</p>
     </div>
   <div class=" container-fluid Interests">
     <div class="row logan">
@@ -35,16 +47,30 @@
       </div>
       <div class="col-md-12 col-lg-6 interestdes">
         <h4>Food</h4>
-        <p> Japan is one of the most diverse countries when it comes to food.</p>
+        <p><a href="http://www.mandarinoriental.co.jp/tokyo/fine-dining/tapas-molecular-bar/">Tapas Molecular Bar</a> - With only eight seats, our one-Michelin starred Tapas Molecular Bar offers an exclusive dining experience celebrating the art of innovative molecular cuisine. </p>
+        <p><a href="http://www.ukai.co.jp/english/shiba/">Tokyo Shiba Tofuya Ukai</a> - The restaurant features beautiful pine trees and a pond where Koi carp swim. Passing in front of the garden lantern and waterwheel and walking on the steppingstones, you will find yourself back in time in the town of Edo, the Tokyo of 200 years ago.
+        </p>
+        <p class="extrafood"><a href="http://www.a511.jp/jp/">Kobe Beef Kaiseki 511</a> Kobe beef is a common name, "Kobe meat" or "Kobe beef" is the official name. Please note, it is that it is the name that defines the "meat" of the food you clear the strict conditions rather than the cow itself. Kobe meat, has been formally approved by the Kobe meat distribution Promotion Council, which was established in 1983, it is the finest brand of domestic beef.
+        </p>
+        <button type="button" class="btn btn-info" name="button">More food to eat...</button>
       </div>
     </div>
     <div class="row logan">
-      <div class="col-md-12 col-lg-6 interest">
+      <div class="col-md-12 col-lg-6 push-lg-6 interest">
         <img src="Images/castle.jpg" class=" sites"  alt="Sites" />
       </div>
-      <div class="col-md-12 col-lg-6 col-lg-pull-6 interestdes">
+      <div class="col-md-12 col-lg-6 pull-lg-6 interestdes">
         <h4>Sites</h4>
-        <p> Japan is one of the most diverse countries when it comes to food.</p>
+        <p><a href="#">Tsujki Market</a></p>
+        <p><a href="#">Tokyo National Museum</a></p>
+        <p><a href="#">Meiji Shrine</a></p>
+        <p><a href="#">Sensoji Shrine</a></p>
+        <p><a href="#">Imperial Palace</a></p>
+        <p><a href="#">Mount Fugi</a></p>
+        <p class="extrafood"><a href="#">Imperial Palace</a></p>
+        <p class="extrafood"><a href="#">Sensoji Shrine</a></p>
+        <p class="extrafood"><a href="#">Imperial Palace</a></p>
+        <button type="button" class="btn btn-info" name="button">More sites to see...</button>
       </div>
     </div>
     <div class="row logan">
@@ -52,39 +78,66 @@
         <img src="Images/shopping.jpg" class="img-fluid" alt="Tokyo Shopping" />
         </div>
         <div class="col-md-12 col-lg-6 interestdes">
-          <h4>Shopping</h4>
-          <p> Japan is one of the most diverse countries when it comes to food.</p>
+          <h4>Ginza District: Shop 'til you Drop</h4>
+          <p> Ginza is Tokyo's busiest shopping area and is as iconic as Times Square in New York, and much older: it's been the commercial center of the country for centuries, and is where five ancient roads connecting Japan's major cities all met. Lined by exclusive shops and imposing palatial stores, the Ginza district is also fun to simply wander around or, better still, sit in one of its many tea and coffee shops or restaurants while watching the world rush past. At weekends, when everything is open, it's a shopper's paradise as traffic is barred, making it one of the world's largest pedestrian zones.</p>
+          <button type="button" class="btn btn-info" name="button">More shopping areas... </button>
         </div>
       </div>
     <div class="row logan">
-      <div class="col-md-12 col-lg-6 interest">
+      <div class="col-md-12 col-lg-6 push-lg-6 interest">
         <img src="Images/skiing.jpg" class="img-fluid" alt="Skiing Fugi" />
       </div>
-      <div class="col-md-12 col-lg-6 interestdes">
-        <h4>Activites</h4>
-        <p> Japan is one of the most diverse countries when it comes to food.</p>
+      <div class="col-md-12 col-lg-6 pull-lg-6 interestdes">
+        <h4>Sking at Mt Fuji</h4>
+        <p><a href="http://www.yeti-resort.com/en/">Yeti Resort</a> - Snow Town Yeti is a small ski resort on the southern slope of Mount Fuji. It is notable as one of only two ski resorts found on Mount Fuji (the other is Fujiten), and because it is the first snow resort in Japan to open each season (around mid October with man made snow).</p>
+        <p class="extrafood"><a href="http://www.fujiten.net/pc/">Fujiten Snow Resort</a> - Fujiten Snow Resort is a small ski resort along the northern base of Mount Fuji in the Fuji Five Lakes region. Fujiten is the larger of two ski resorts on Mount Fuji and offers good facilities and views of the mountain.</p>
+        <button type="button" class="btn btn-info" name="button">More activities in Tokyo... </button>
       </div>
     </div>
   </div>
   <div class="Yourguide">
     <div class="col-md-12 Guide">
       <img src="Images/JGL.jpg" class="col-md-4 JGL img-fluid" alt="Guide">
-      <h4>Why I love Tokyo</h4>
-      <p> I’ve lived in Tokyo for over a decade now and am continuously surprised – sometimes on a daily basis – by something new. Such is the joy of living in a city that prides itself on constant renewal and reinvention; it never gets old. Tokyo has everything you can ask of a city.</p>
+      <h4>Why I love Tokyo</h4><br>
+      <p> I’ve lived in Tokyo for over a decade now and am continuously surprised – sometimes on a daily basis – by something new. Such is the joy of living in a city that prides itself on constant renewal and reinvention; it never gets old. Tokyo has everything you can ask of a city.</p><br>
+      <p> I have been lucky enough to live in Tokyo long enough to know to tourist spots from the great local spots you wont find on the internet. I have fallen in love with all that Tokyo has to offer and would love to share it with other people.</p><br>
+      <p class="extrafood"> I belive that I offer the best packages at the best value in Tokyo with the best experience included. I am available all year long. Please sign up for my newsletter to see about new and exciting things happening in tokyo.</p>
     </div>
   </div>
   <div class="container-fluid prices">
     <div class="row fluid packages">
-      <div class="package">
-        Deal  Number one of three
+      <div class="col-xs-4 col-md-4 package">
+        <h6>Summer Package</h6>
+        <p>This deal is an immersive cultural experience while viewing the great history of Tokyo .</p>
+        <p class="extrafood"> Two full days of travelling around the many castles and beautiful garens surronding the city. This is an excellent pacakge for photographers. Tokyo in the summer is gorgeous.</p>
+        <h6>Est. $6000</h6>
       </div>
-
+      <div class="col-xs-4 col-md-4 package">
+        <h6>Winter Package</h6>
+        <p>Enjoy a get away to the best ski resorts in Tokyo with some of the best views on the planet.</p><p class="extrafood"> Includes two full days of sking at the two resorts located on Mt. Fuji. Both resorts have an assortment of activities and resatraunts. This is an excellent family package.</p>
+        <h6>Est. $8000</h6>
+      </div>
+      <div class="col-xs-4 col-md-4 package">
+        <h6>Spring Package</h6>
+        <p>Are you ready for a shopping experience like nome other in the Tokyo This package is for you.</p><p class="extrafood"> Two days of showing you around the cities best spots for both shopping and nightlife. This is a excellent pacakge for anyone who is visiting from anywhere outside of Japan</p>
+        <h6>Est. $4000</h6>
+      </div>
+      <button type="button" class="btn btn-info" name="button">Plan your trip with mytravel today!</button>
     </div>
-
-  </div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+    <form action="/html/tags/html_form_tag_action.cfm">
+      <fieldset class="form-group">
+        <label for="first_name">Name</label>
+        <input type="text" class="form-control" id="first_name" name="first_name">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="last_name">Email</label>
+        <input type="email" class="form-control" id="last_name" name="last_name">
+      </fieldset>
+      <button type="submit" class="btn btn">Sign Up for the Newsletter!</button>
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
 </body>
 </html>
